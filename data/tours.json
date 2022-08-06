@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Waitomo: Glowworm Caves Guided Tour by Boat",
+    "price": 55,
+    "per": "1 person",
+    "description": "Explore the world-famous Waitomo Glowworm Caves on a guided tour. Carved out by the force of the river, the underground world is surprisingly beautiful with whirlpools and roaring waterfalls. Glide by boat and marvel at the sight of magical glowworms above you!",
+    "date": { "$date": "2023-12-03T07:00:00.000Z" },
+    "img": [
+      "https://images.pexels.com/photos/808466/pexels-photo-808466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1763808/pexels-photo-1763808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3975093/pexels-photo-3975093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "_id": { "$oid": "62e91517b464891e4fae6e6b" },
+    "duration": "40m",
+    "ticket_type": "at door",
+    "group_size": 10,
+    "near_transport": "no",
+    "additional_info": [
+      "Bring comfortable waking shoes and a warm jacket.",
+      "Not wheelchair accessible",
+      "Not near public transportation",
+      "Most travellers can participate",
+      "This experience requires good weather. If its cancelled due to poor weather, youll be offered a different date or a full refund"
+    ],
+    "tour_snapshot": "Discover an ancient world 30 million years in the making and marvel at Mother Nature’s light display as you glide silently through the starry wonderland of the Glowworm Grotto",
+    "highlights": [
+      "Be amazed by one of New Zealand's must-see attractions",
+      "Learn about the geological and historical background of the Waitomo Caves",
+      "Tours depart at various times, so you can choose one to suit your schedule"
+    ]
+  },
+  {
+    "title": "Fiordland National Park: Doubtful Sound Wilderness Cruise",
+    "price": 199,
+    "per": "1 person",
+    "description": "Travel to an untouched world in Fiordland National Park. Take a launch cruise across Lake Manapouri, a short coach trip over Wilmot Pass, and board a 2 hour and 45-minute Doubtful Sound cruise.",
+    "date": { "$date": "2023-12-03T07:00:00.000Z" },
+    "img": [
+      "https://images.pexels.com/photos/2336921/pexels-photo-2336921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/11575061/pexels-photo-11575061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/4086212/pexels-photo-4086212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "_id": { "$oid": "62e915b4f229298b9fb01f7e" },
+    "duration": "3h",
+    "ticket_type": "mobile",
+    "group_size": 12,
+    "near_transport": "yes",
+    "tour_snapshot": "With wide-open spaces, some of the best hikes in the world and must-see natural wonders, Tongariro National Park is the perfect destination for you",
+    "additional_info": [
+      "Bring comfortable waking shoes and a warm jacket.",
+      "Not wheelchair accessible",
+      "Near public transportation",
+      "Most travellers can participate",
+      "This experience requires good weather. If its cancelled due to poor weather, youll be offered a different date or a full refund"
+    ],
+    "highlights": [
+      "Magnificent views as you cruise across Milford Sound",
+      "Walk the swing bridge looking out over Giant's Gate waterfall",
+      "Small-group tour with a maximum of 12 people"
+    ]
+  },
+  {
+    "title": "Milford Sound Nature Cruise on Premium Glass-Roof Catamaran",
+    "price": 99,
+    "per": "1 person",
+    "description": "Enjoy an uncrowded and hassle-free cruise on the magnificent Milford Sound, taking in the stunning views as you go. Benefit from a premium vessel specifically designed to capture the beauty of the fiord with unique glass-roof and spacious viewing decks.",
+    "date": { "$date": "2023-12-03T07:00:00.000Z" },
+    "img": [
+      "https://images.pexels.com/photos/4863995/pexels-photo-4863995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/11843317/pexels-photo-11843317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2745255/pexels-photo-2745255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "tour_snapshot": "Magnificent sceneries with luxury yatch and top-notch services",
+    "_id": { "$oid": "62e915f0180921ff21e6a71a" },
+    "duration": "2h",
+    "ticket_type": "mobile",
+    "group_size": 6,
+    "near_transport": "yes",
+    "additional_info": [
+      "Bring comfortable waking shoes and a warm jacket.",
+      "Wheelchair accessible",
+      "Near public transportation",
+      "Most travellers can participate",
+      "This experience requires good weather. If its cancelled due to poor weather, youll be offered a different date or a full refund"
+    ],
+    "highlights": [
+      "Take in the vistas of Fiordland National Park from the boat observation deck",
+      "Learn about the wildlife and geology from your naturalist guide's commentary",
+      "Get a top value with drinks, optional meal, and glacial water taste included"
+    ]
+  },
+  {
+    "title": "Queenstown Half-Day 4WD Lord Of the Rings Discovery Tour",
+    "price": 230,
+    "per": "1 person",
+    "tour_snapshot": "Emerging yourself with mother nature and discover Lord of the Rings film set",
+    "description": "Discover the spectacular locations of Middle Earth on a 4WD discovery tour from Queenstown. Visit all 'Lord of the Rings' locations in Queenstown and Arrowtown on a small group, expertly-guided half-day tour that includes gold panning and afternoon tea.",
+    "date": { "$date": "2023-12-03T07:00:00.000Z" },
+    "img": [
+      "https://images.pexels.com/photos/1748531/pexels-photo-1748531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/10614567/pexels-photo-10614567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/10615442/pexels-photo-10615442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "_id": { "$oid": "62e91680ac41c580799d1702" },
+    "duration": "12h",
+    "ticket_type": "mobile",
+    "group_size": 5,
+    "near_transport": "no",
+    "additional_info": [
+      "Bring comfortable waking shoes and a warm jacket.",
+      "Not wheelchair accessible",
+      "Not near public transportation",
+      "Most travellers can participate",
+      "This experience requires good weather. If its cancelled due to poor weather, youll be offered a different date or a full refund"
+    ],
+    "highlights": [
+      "Visit Milford Sound, the Tasman Sea, and the Southern Alps in a single day",
+      "Pilot commentary guides visitors on each flight ",
+      "Convenient hotel pick-up, drop-off, and choice of departure time"
+    ]
+  }
+]
