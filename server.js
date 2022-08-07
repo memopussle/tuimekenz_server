@@ -5,7 +5,7 @@ const uri = process.env.MONGODB_URI;
 mongoose
   .connect(
     "mongodb+srv://thugiang:gianganhthu7b..@cluster0.tupwf3g.mongodb.net/mongo?retryWrites=true&w=majority",
-    { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false }
+    { useNewUrlParser: true }
   )
   .then(() => {
     console.log("Connected to Mongo database");

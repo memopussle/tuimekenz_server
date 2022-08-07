@@ -32,6 +32,9 @@ app.get("/tours/:id", async (req, res) => {
   return res.status(200).send(tourById);
 });
 
+
 app.use(express.static(path.join(__dirname + "/public")));
+
+
 
 module.exports = app;
