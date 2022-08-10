@@ -98,10 +98,10 @@ These are instructions on how you may set up this project locally.
 
 <!-- CONTACT -->
 ## Contact
-
-Thu Giang - xanhtham.cuc@gmail.com
+[Thu Giang](mailto:xanhtham.cuc@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
 
 <br /> 
-Project Link: [Tui Meke NZ Travel Website](https://github.com/memopussle/tuimekenz_server)
+Project Link:
+[Tui Meke NZ Travel Website](https://github.com/memopussle/tuimekenz_server)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
