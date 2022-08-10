@@ -62,8 +62,7 @@ Technologies that I used to build this application: React, Nodejs, Expressjs, Mo
 
 ### Challenges
 
-To complete this project, I needed to gain a foundation in Axios fetching methods and Google Services in a short amount of time. There are a few features that I hope to implement in the future: Apply REST APIs methods that allow the user to read all tours, select the wanted time to cart and book or purchase it. Also, add a login page and authentication to the website.
-
+To complete this project, I needed to gain a foundation in Axios fetching methods and Google Services in a short amount of time. There are a few features that I hope to implement in the future: Apply REST APIs methods that allow the user to read all tours, select the wanted tour to cart and book or purchase it. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,6 +102,6 @@ This is an instructions of how you may set up this project locally.
 Thu Giang - xanhtham.cuc@gmail.com
 
 <br /> 
-Project Link: [Tui Meke NZ Travel Website](https://github.com/memopussle/tuimekenz_server)
+Project Link: ![Tui Meke NZ Travel Website](https://github.com/memopussle/tuimekenz_server)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
