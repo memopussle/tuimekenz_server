@@ -9,9 +9,15 @@ const bodyParser = require("body-parser");
 require("dotenv").config({ path: "./config.env" });
 
 app.use(cors());
-app.use(express.json());
-app.use(bodyParser.json({ limit: "50mb", extended: true }));
-app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
+app.use(express.json({ limit: "50mb" }));
+
+app.use(
+  bodyParser.urlencoded({
+    limit: "50mb",
+    extended: true,
+    parameterLimit: 100000,
+  })
+);
 
 // GET METHOD
 app.get("/tours", async (req, res) => {
@@ -39,41 +45,13 @@ app.get("/tours/:id", async (req, res) => {
 
 // POST METHOD
 app.post("/tours", async (req, res, next) => {
-  const {
-    title,
-    price,
-    per,
-    description,
-    date,
-    img,
-    duration,
-    ticket_type,
-    group_size,
-    near_transport,
-    additional_info,
-    tour_snapshot,
-    highlights,
-  } = req.body;
-  const newTour = new tours({
-    title,
-    price,
-    per,
-    description,
-    date,
-    img,
-    duration,
-    ticket_type,
-    group_size,
-    near_transport,
-    additional_info,
-    tour_snapshot,
-    highlights,
-  });
   try {
+    const { body } = req;
+    const newTour = new tours(body);
     await newTour.save();
     return res.status(201).send(newTour);
   } catch (error) {
-      res.status(400).send(error);
+    res.status(400).send(error);
   }
 });
 
