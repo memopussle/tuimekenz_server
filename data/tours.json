@@ -2,12 +2,14 @@
   {
     "title": "Waitomo: Glowworm Caves Guided Tour by Boat",
     "price": 55,
-    "per": "1 person",
+    "per": 1,
     "description": "Explore the world-famous Waitomo Glowworm Caves on a guided tour. Carved out by the force of the river, the underground world is surprisingly beautiful with whirlpools and roaring waterfalls. Glide by boat and marvel at the sight of magical glowworms above you!",
     "date": { "$date": "2023-12-03T07:00:00.000Z" },
     "img": [
       "https://images.pexels.com/photos/808466/pexels-photo-808466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
       "https://images.pexels.com/photos/1763808/pexels-photo-1763808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+
       "https://images.pexels.com/photos/3975093/pexels-photo-3975093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     ],
     "_id": { "$oid": "62e91517b464891e4fae6e6b" },
@@ -32,7 +34,7 @@
   {
     "title": "Fiordland National Park: Doubtful Sound Wilderness Cruise",
     "price": 199,
-    "per": "1 person",
+    "per": 1,
     "description": "Travel to an untouched world in Fiordland National Park. Take a launch cruise across Lake Manapouri, a short coach trip over Wilmot Pass, and board a 2 hour and 45-minute Doubtful Sound cruise.",
     "date": { "$date": "2023-12-03T07:00:00.000Z" },
     "img": [
@@ -62,7 +64,7 @@
   {
     "title": "Milford Sound Nature Cruise on Premium Glass-Roof Catamaran",
     "price": 99,
-    "per": "1 person",
+    "per": 1,
     "description": "Enjoy an uncrowded and hassle-free cruise on the magnificent Milford Sound, taking in the stunning views as you go. Benefit from a premium vessel specifically designed to capture the beauty of the fiord with unique glass-roof and spacious viewing decks.",
     "date": { "$date": "2023-12-03T07:00:00.000Z" },
     "img": [
@@ -92,7 +94,7 @@
   {
     "title": "Queenstown Half-Day 4WD Lord Of the Rings Discovery Tour",
     "price": 230,
-    "per": "1 person",
+    "per": 1,
     "tour_snapshot": "Emerging yourself with mother nature and discover Lord of the Rings film set",
     "description": "Discover the spectacular locations of Middle Earth on a 4WD discovery tour from Queenstown. Visit all 'Lord of the Rings' locations in Queenstown and Arrowtown on a small group, expertly-guided half-day tour that includes gold panning and afternoon tea.",
     "date": { "$date": "2023-12-03T07:00:00.000Z" },

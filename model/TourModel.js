@@ -2,19 +2,19 @@ const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
 const tourSchema = new Schema({
-  title: { type: String, required: true },
-  price: { type: Number, required: true },
-  per: { type: String, required: true },
-  description: { type: String, required: true },
-  date: { type: Date, $date: String },
-  img: { type: Array, required: true },
-  duration: { type: String, required: true },
-  ticket_type: { type: String, required: true },
-  group_size: { type: Number, required: true },
-  near_transport: { type: String, required: true },
-  additional_info: { type: Array, required: true },
-  tour_snapshot: { type: String, required: true },
-  highlights: { type: Array, required: true },
+  title: String,
+  price: { type: Number,  min:0 },
+  per: Number,
+  description: String,
+  date: { type: Date, default: Date.now },
+  img:[String],
+  duration: String,
+  ticket_type: String,
+  group_size: { type: Number, min: 0},
+  near_transport: String,
+  additional_info: [String],
+  tour_snapshot: String,
+  highlights:[String],
 
 });
 
