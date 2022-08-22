@@ -29,7 +29,11 @@ https://user-images.githubusercontent.com/91854884/183329906-a6972ed3-67f2-4210-
 
 
 
+<<<<<<< HEAD
 [View Live Site here](https://tumekenz.herokuapp.com/)
+=======
+[View Live Site here](https://clothing-shop-overthesea.herokuapp.com/)
+>>>>>>> 1fe84c2a7dd6f9cd217fd09909608b56e78dcde5
 
 [View Client Side here](https://github.com/memopussle/client_tumeke_nz)
 
