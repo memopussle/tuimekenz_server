@@ -5,6 +5,7 @@ const tours = require("./model/TourModel");
 const validId = require("./utils/validId");
 const path = require("path");
 const bodyParser = require("body-parser");
+const  mongoose  = require("mongoose");
 
 require("dotenv").config({ path: "./config.env" });
 
@@ -53,6 +54,16 @@ app.post("/tours", async (req, res, next) => {
   } catch (error) {
     res.status(400).send(error);
   }
+});
+
+// DELETE POST
+app.delete("/tours/:id", async (req, res) => {
+  const { id } = req.params;
+  if (!validId) return res.status(404).send("No post with that id");
+
+  await tours.findByIdAndRemove(id);
+  console.log("DELETE");
+  res.send({ message: "Tour deleted successfully" });
 });
 
 app.use(express.static(path.join(__dirname + "/public")));
