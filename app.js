@@ -62,7 +62,6 @@ app.delete("/tours/:id", async (req, res) => {
   if (!validId) return res.status(404).send("No post with that id");
 
   await tours.findByIdAndRemove(id);
-  console.log("DELETE");
   res.send({ message: "Tour deleted successfully" });
 });
 
