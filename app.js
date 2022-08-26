@@ -59,11 +59,32 @@ app.post("/tours", async (req, res, next) => {
 // DELETE POST
 app.delete("/tours/:id", async (req, res) => {
   const { id } = req.params;
-  if (!validId) return res.status(404).send("No post with that id");
+
+  if (!validId(id)) return res.status(404).send("No post with that id");
 
   await tours.findByIdAndRemove(id);
   res.send({ message: "Tour deleted successfully" });
 });
+
+
+//EDIT POST
+app.patch("/tours/:id", async (req, res) => {
+  const { id: _id } = req.params; // rename id -> _id
+
+  const tour = req.body;
+
+  //if id is not valid
+  if (!validId(_id))
+    return res.status(404).send("No post with that id");
+
+  const updatedTour = await tours.findByIdAndUpdate(
+    _id,
+    { ...tour, _id }, // update the post with the id
+    { new: true }
+  ); //update the new post by target the _id & post
+  res.send(updatedTour);
+ 
+})
 
 app.use(express.static(path.join(__dirname + "/public")));
 
